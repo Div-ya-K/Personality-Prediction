@@ -15,26 +15,30 @@ The dataset used contains MBTI (Myers–Briggs Type Indicator) personality types
   - Evaluate using accuracy, precision, recall, F1-score, and confusion matrix
     
 
+
 📊 Dataset
-  Source: Kaggle - MBTI Personality Dataset
+  - Source: Kaggle - MBTI Personality Dataset
 
-  Size: ~8600 samples
+  - Size: ~8600 samples
 
-  Features:
+  - Features:
 
-  type: MBTI personality type (16 types)
+    - type: MBTI personality type (16 types)
 
-  posts: Text data (user-generated content)
+    - posts: Text data (user-generated content)
 
-🧹 Preprocessing
+🧹 Preprocessing:
+
 Cleaning, stopword removal, tokenization, stemming
 
 
-✨ Vectorization
+✨ Vectorization:
+
 TF-IDF
 
 
 ⚖️ Class Imbalance Handling
+
 SMOTE (Synthetic Minority Oversampling Technique)
 
 
